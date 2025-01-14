@@ -1,14 +1,10 @@
 - [Authentication](_authentication.md)
 - [Dashboard](_dashboard.md)
 - [Submission Details](_submission_details.md)
-- [Tin Validation](_tin_validation.md)
-- [Online Transformer](_online_transformer.md)
-- [Audit Logs](_audit_logs.md)
-<details>
-    <summary> <b> Settings</b> </summary>
-
+- [Validate TIN](_validate_tin.md)
+- [Json Transformer](_json_transformer.md)
+- [Submission From BQ](_submission_from_bq.md)
+- [Settings](_settings.md)
     - [Profile](_settings_profile.md)
     - [Security](_settings_security.md)
     - [Notifications](_settings_notifications.md)
-
-</details>

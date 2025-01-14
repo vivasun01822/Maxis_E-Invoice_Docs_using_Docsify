@@ -18,6 +18,7 @@
     data-sheet="core-dark" disabled />
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/vue.min.css" data-group="addon"
     data-sheet="vue" disabled />
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 </head>
 
 <body>
@@ -31,9 +32,13 @@
       name: "Maxis E-INVOICE Documentation",
       nameLink: '/',
       repo: "sun01822/sun01822",
-      maxLevel: 2,
       themeColor: '#3F51B5',
       loadSidebar: true,
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+      },
+      subMaxLevel: 3,
+      sidebarDisplayLevel: 1,
       loadNavbar: true,
       coverpage: true,
     };
@@ -49,6 +54,9 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/gitalk.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/matomo.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-collapse.min.js"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 </body>
 
 </html>

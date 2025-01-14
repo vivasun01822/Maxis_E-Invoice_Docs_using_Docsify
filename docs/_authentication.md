@@ -10,6 +10,8 @@ In our application, we use password-based authentication as the primary method f
 
 ## Login Process
 
+![Login Process](_media/login.png)
+
 The login process typically involves the following steps:
 
 1. **User Input**: The user enters their credentials (username and password) into the login form.
@@ -36,6 +38,3 @@ Rules are implemented to enforce permissions and ensure that users can only acce
 1. **Access Control**: Checking user permissions before allowing access to specific resources or actions.
 2. **Role-Based Access Control (RBAC)**: Assigning roles to users and defining permissions for each role.
 3. **Audit Logging**: Keeping a record of user actions to monitor and review access and changes.
-
-
-## Screenshots
