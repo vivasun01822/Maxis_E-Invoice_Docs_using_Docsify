@@ -37,26 +37,30 @@ This section includes a dropdown selector that allows you to filter invoices by 
 This section includes a dropdown selector that allows you to display the graph in either Number or Percentage format. It helps you quickly identify and analyze the proportion of invoices by their status (e.g., Valid, Invalid, and Rejected).
 
 #### Number Format
+
 When selecting Number, the graph will display values in numerical format (e.g., 100, 1k, 2.5k, 1000k).
 
 ![Viewing Graph Format Number](../_media/dashboard9.png)
 
 #### Percentage Format
+
 When selecting Number, the graph will display values in Percentage format (e.g., 10%, 65%).
 
 ![Viewing Graph Format Percentage](../_media/dashboard11.png)
 
-#### Status Details
+#### Graph Status Details
+
 You can see the bar value by hovering over it with your cursor to view the details.
 
-![Viewing Graph Bar details](../_media/dashboard10.png)
+![Viewing Graph Bar details](_media/dashboard10.png)
 
 
-### 5. Recent Invoices
+### 6. Recent Invoices by Month
 
-The recent invoices section provides a list of the most recent invoices, including details such as the invoice number, customer name, amount, and status. This allows you to quickly access and review your latest invoices.
+This section allows you to filter and view invoices by a specific month of a year. It helps you analyze invoicing trends and patterns over different months.
 
-![Recent Invoices](../_media/recent_invoices.png)
+
+![Recent Invoices by Month](_media/dashboard6.png)
 
 ### 6. Invoices by Category
 
