@@ -59,19 +59,20 @@ You can see the bar value by hovering over it with your cursor to view the detai
 
 This section allows you to filter and view invoices by a specific month of a year. It helps you analyze invoicing trends and patterns over different months.
 
-
 ![Recent Invoices by Month](../_media/dashboard6.png)
 
-### 6. Invoices by Category
+### Graph Extend View
 
-This section displays a pie chart showing the distribution of invoices by category (e.g., Services, Products). This helps you understand the composition of your invoicing activities.
+By clicking the Extend button of Graph, it displays fullscreen view of that graph showing the count of invoices by their status (e.g., Valid, Invalid, Rejected). 
 
-![Invoices by Category](../_media/dashboard1.png)
+![Graph Extend View](../_media/dashboard7.png)
 
-## Interactivity
+### Pie Chart Extend View
+By clicking the Extend button of Pie Chart, it displays fullscreen view of that pie chart showing the count of invoices by their status (e.g., Valid, Invalid, Rejected).
 
-The Dashboard is interactive, allowing you to filter and drill down into the data. You can click on different sections of the charts to view more detailed information and apply filters to customize the data displayed.
+![Invoices by Category](../_media/dashboard8.png)
+
 
 ## Conclusion
 
-The Maxis E-Invoice Portal Dashboard provides a powerful and intuitive interface for monitoring and managing your invoicing activities. By leveraging the visualizations and interactive features, you can gain valuable insights into your invoicing performance and make informed decisions to optimize your invoicing processes.
+The Maxis E-Invoice Portal Dashboard provides a powerful and intuitive interface for monitoring and managing invoicing activities. By utilizing the visualizations and interactive features, you can gain valuable insights into  invoicing performance and make informed decisions to optimize invoicing processes.
