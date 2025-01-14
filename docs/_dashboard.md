@@ -14,22 +14,43 @@ The summary cards at the top of the dashboard provide a quick overview of key me
 
 ### 2. Invoices by Type
 
-This section includes a dropdown selector that allows you to filter invoices by their types (e.g., Individual, Consolidated). This feature helps you quickly identify and analyze the proportion of invoices in each type.
+This section includes a dropdown selector that allows you to filter invoices by their types (e.g., Individual, Consolidated, All). It helps you quickly identify and analyze the proportion of invoices in each type.
 
 ![Invoices by Type](_media/dashboard2.png)
 
 
-### 3. Monthly Invoicing Trends
+### 3. Invoices by Company Codes
 
-The bar chart in this section shows the monthly invoicing trends, allowing you to track the number of invoices and the total amount invoiced over time. This helps you identify patterns and trends in your invoicing activities.
+This section includes a dropdown selector that allows you to filter invoices by their company codes (e.g., MYO3, MYO4). It helps you quickly identify and analyze the proportion of invoices by their company codes.
 
-![Monthly Invoicing Trends](../_media/monthly_invoicing_trends.png)
+![Invoices by Company Codes](_media/dashboard3.png)
 
-### 4. Top Customers
+### 4. Invoices by Data Sources
 
-This section lists your top customers based on the total amount invoiced. It helps you identify your most valuable customers and monitor their invoicing activities.
+This section includes a dropdown selector that allows you to filter invoices by their data sources(e.g., AMDOCS, KENAN, CHANNEL, SAP). It helps you quickly identify and analyze the proportion of invoices by their data sources.
 
-![Top Customers](../_media/top_customers.png)
+![Invoices by Data Sources](_media/dashboard4.png)
+
+
+### 5. Viewing Graph Format
+
+This section includes a dropdown selector that allows you to display the graph in either Number or Percentage format. It helps you quickly identify and analyze the proportion of invoices by their status (e.g., Valid, Invalid, and Rejected).
+
+#### Number Format
+When selecting Number, the graph will display values in numerical format (e.g., 100, 1k, 2.5k, 1000k).
+
+![Viewing Graph Format Number](../_media/dashboard9.png)
+
+#### Percentage Format
+When selecting Number, the graph will display values in Percentage format (e.g., 10%, 65%).
+
+![Viewing Graph Format Percentage](../_media/dashboard11.png)
+
+#### Status Details
+You can see the bar value by hovering over it with your cursor to view the details.
+
+![Viewing Graph Bar details](../_media/dashboard10.png)
+
 
 ### 5. Recent Invoices
 
