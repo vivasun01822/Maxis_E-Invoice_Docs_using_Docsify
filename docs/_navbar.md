@@ -1,4 +1,4 @@
 * Getting started
-  * [Cover page](_coverpage.md)
+  * [Cover page](README.md)
   * [Quick start](_authentication.md)
 

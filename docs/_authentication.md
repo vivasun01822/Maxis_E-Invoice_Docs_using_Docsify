@@ -13,7 +13,7 @@ In our application, we use password-based authentication as the primary method f
 The login process typically involves the following steps:
 
 1. **User Input**: The user enters their credentials (username and password) into the login form.
-2. **Session Creation**: If the credentials are valid, the server creates a session for the user and sends back a session token or cookie.
+2. **Session Creation**: If the credentials are valid, the server creates a session for the user and sends back a session token which is valid for 1 hour.
 3. **Access Granted**: The user is granted access to the application and can perform actions based on their permissions.
 
 
