@@ -30,10 +30,17 @@
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md',
       },
+      maxLevel: 3,
       subMaxLevel: 3,
       sidebarDisplayLevel: 1,
       loadNavbar: true,
       coverpage: true,
+      executeScript: true,
+      search: {
+        depth: 3,
+        noData: 'No results!',
+        placeholder: 'Search...'
+      },
     };
   </script>
   <!-- Docsify v4 -->

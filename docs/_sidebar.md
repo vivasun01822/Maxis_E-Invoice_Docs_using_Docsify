@@ -5,6 +5,3 @@
 - [Json Transformer](_json_transformer.md)
 - [Submission From BQ](_submission_from_bq.md)
 - [Settings](_settings.md)
-    - [Profile](_settings_profile.md)
-    - [Security](_settings_security.md)
-    - [Notifications](_settings_notifications.md)
