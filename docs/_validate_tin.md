@@ -28,6 +28,6 @@ You can also upload a `JSON` file using the `Upload Multiple TIN` button to vali
 
 ### Validate TIN List
 
-The Validate TIN List section displays the validation results of TINs. You can filter the list using either the `TraceID` or the `TIN number`. A `Refresh` button is also available, allowing you to fetch the latest TIN list from database.
+The Validate TIN List section displays the validation results of TINs. You can filter the list using either the `TraceID` or the `TIN number`. A Refresh button is also available, allowing you to fetch the latest TIN list from database.
 
 ![Validate TIN List](../_media/validateTin4.png)
