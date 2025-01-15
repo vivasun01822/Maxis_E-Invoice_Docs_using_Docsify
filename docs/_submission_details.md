@@ -58,3 +58,10 @@ To cancel a document from `IRBM`, click the `Action` dropdown button on the reco
 Documents cannot be canceled after `72` hours of submission due to IRBM regulations. If a cancellation is required beyond this window, you must submit a credit note instead. To issue a credit note, click the `Action` dropdown button on the respective record and select the `Credit Note` option. This will automatically generate and submit a credit note to IRBM for the corresponding invoice.
 
 ![Credit Note Invoice](../_media/submissionDetails8.png)
+
+
+### Download PDF
+
+To download pdf from Portal, click the `Action` dropdown button on the respective record and select the `Download PDF` option. It will download the PDF for the corresponding invoice and switch to new tab to open it.
+
+![Credit Note Invoice](../_media/submissionDetails8.png)
