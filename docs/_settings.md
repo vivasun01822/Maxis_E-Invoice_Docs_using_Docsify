@@ -26,7 +26,7 @@ Please note, only administrators have access to the Settings section.
 
 ### Digital Certificate Update
 
-The Digital Certificate Update section displays a list of uploaded digital certificates. 
+The Digital Certificate Update section displays a list of uploaded digital certificates. Digital certificates are essential in e-invoicing as they authenticate the sender's identity, ensure the invoice's integrity, and comply with legal standards. They verify that the invoice originates from a trusted source and has not been altered during transmission. Additionally, digital certificates fulfill regulatory requirements for secure electronic transactions.
 
 
 ![Digital Certificate](../_media/settings3.png)
@@ -38,3 +38,13 @@ To add a new digital certificate, click the `Add Certificate` button. This will 
 ![Digital Certificate Create](../_media/settings4.png)
 
 
+### BQ Table Map
+
+The BQ Table Map feature enables automatic submission of e-invoices directly from a BigQuery table. It streamlines the process by triggering submissions automatically whenever new invoices are added to the specified table.
+
+![BQ Table Map](../_media/settings5.png)
+
+To enable auto-submission triggers, add the table to the BQ Table Map by clicking the Add Table button. This will prompt you to input the required details, including the `Server ID`, `Table ID`, `Partition Size`, and `Request Size`. Once you've filled out the fields, click the Create button. Within an hour, the auto-submission process will begin, automatically submitting e-invoices from the specified table.
+
+
+![BQ Table Map Create](../_media/settings7.png)
