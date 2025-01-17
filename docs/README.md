@@ -2,6 +2,10 @@
     <h1>Maxis E-Invoice Portal</h1>
 </div>
 
+### What is an e-Invoice?
+An e-Invoice is a digital representation of a transaction between a seller and a buyer. e-Invoice is intended to replace paper or electronic documents of invoices, credit notes, debit notes and refund notes and contains the same essential transactional data. For more information, refer to LHDN e-Invoice microsite at e-Invoice | Lembaga Hasil Dalam Negeri Malaysia.
+
+
 <div align="center" style="margin-top: 10%;">
     <h2>Features</h2>
 </div>
@@ -28,7 +32,9 @@
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
   .grid-item img {
-    max-width: 80px;
+    width: 100px;
+    height: 100px; 
+    object-fit: contain; 
     margin-bottom: 15px;
   }
   .grid-item h3 {
@@ -42,12 +48,12 @@
 
 <script>
   const features = [
-    { title: 'Authentication', logo: '../_media/logo1.png', link: '#/_authentication' },
-    { title: 'Dashboard', logo: '../_media/logo2.png', link: '#/_dashboard' },
-    { title: 'Submission Details', logo: '../_media/logo3.png', link: '#/_submission_details' },
-    { title: 'Validate Tin', logo: '../_media/logo4.png', link: '#/_validate_tin' },
-    { title: 'Submission From BQ', logo: '../_media/logo5.png', link: '#/_submission_from_bq' },
-    { title: 'Settings', logo: '../_media/logo6.png', link: '#/_settings' }
+    { title: 'Authentication', logo: '../_media/readme/authentication.svg', link: '#/_authentication' },
+    { title: 'Dashboard', logo: '../_media/readme/dashboard.svg', link: '#/_dashboard' },
+    { title: 'Submission Details', logo: '../_media/readme/submissionDetails.svg', link: '#/_submission_details' },
+    { title: 'Validate Tin', logo: '../_media/readme/validateTin.svg', link: '#/_validate_tin' },
+    { title: 'Submission From BQ', logo: '../_media/readme/submissionFromBQ.svg', link: '#/_submission_from_bq' },
+    { title: 'Settings', logo: '../_media/readme/settings.svg', link: '#/_settings' }
   ];
 
   const gridContainer = document.getElementById('features-grid');
