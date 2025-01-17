@@ -9,29 +9,32 @@
 <style>
   .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 20px;
     margin-top: 20px;
+    padding: 0 20px;
   }
   .grid-item {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   .grid-item:hover {
     transform: translateY(-10px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
   .grid-item img {
-    max-width: 100px;
-    margin-bottom: 10px;
+    max-width: 80px;
+    margin-bottom: 15px;
   }
   .grid-item h3 {
-    margin: 10px 0;
-    font-size: 1.2em;
+    margin: 15px 0;
+    font-size: 1.4em;
+    color: #333;
   }
 </style>
 
@@ -39,12 +42,12 @@
 
 <script>
   const features = [
-    { title: 'Authentication', logo: '../_media/logo1.png', link: '_authentication.md' },
-    { title: 'Dashboard', logo: '../_media/logo2.png', link: '_dashboard.md' },
-    { title: 'Submission Details', logo: '../_media/logo3.png', link: '_submission_details.md' },
-    { title: 'Validate Tin', logo: '../_media/logo4.png', link: '_validate_tin.md' },
-    { title: 'Submission From BQ', logo: '../_media/logo5.png', link: '_submission_from_bq.md' },
-    { title: 'Settings', logo: '../_media/logo6.png', link: '_settings.md' }
+    { title: 'Authentication', logo: '../_media/logo1.png', link: '#/_authentication' },
+    { title: 'Dashboard', logo: '../_media/logo2.png', link: '#/_dashboard' },
+    { title: 'Submission Details', logo: '../_media/logo3.png', link: '#/_submission_details' },
+    { title: 'Validate Tin', logo: '../_media/logo4.png', link: '#/_validate_tin' },
+    { title: 'Submission From BQ', logo: '../_media/logo5.png', link: '#/_submission_from_bq' },
+    { title: 'Settings', logo: '../_media/logo6.png', link: '#/_settings' }
   ];
 
   const gridContainer = document.getElementById('features-grid');
