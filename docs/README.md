@@ -1,12 +1,10 @@
-<div align="center">
+<div align="center" style="margin-bottom: 5%;">
     <h1>Maxis E-Invoice Portal</h1>
 </div>
 
-### What is an e-Invoice?
-An e-Invoice is a digital representation of a transaction between a seller and a buyer. e-Invoice is intended to replace paper or electronic documents of invoices, credit notes, debit notes and refund notes and contains the same essential transactional data. For more information, refer to LHDN e-Invoice microsite at e-Invoice | Lembaga Hasil Dalam Negeri Malaysia.
+The Maxis E-Invoice Portal is a web-based application designed to simplify and streamline the process of managing e-invoices. It offers secure user authentication, a comprehensive dashboard, detailed submission logs, and TIN validation. The portal integrates with Google BigQuery for automated submissions and provides customizable settings for system preferences. Its responsive design ensures a seamless user experience across all devices.
 
-
-<div align="center" style="margin-top: 10%;">
+<div align="center" style="margin-top: 5%;">
     <h2>Features</h2>
 </div>
 
@@ -69,3 +67,58 @@ An e-Invoice is a digital representation of a transaction between a seller and a
     gridContainer.appendChild(gridItem);
   });
 </script>
+
+## Key Features and Functionalities:
+
+### Authentication:
+
+Ensures secure access to the portal by providing user authentication mechanisms.
+
+### Dashboard:
+
+Displays an overview of key metrics, activities, and summaries related to e-invoice management.
+Helps users monitor the status of submissions and identify issues at a glance.
+
+### Submission Details:
+- Offers detailed logs of submitted e-invoices, including status, timestamps, and other relevant data.
+- Allows users to track the lifecycle of each submission.
+
+### Validate TIN:
+
+Provides a mechanism to validate Taxpayer Identification Numbers (TIN) quickly and efficiently, ensuring compliance with regulatory standards.
+
+
+### Submission From BigQuery:
+
+- Integrates with Google BigQuery to facilitate automatic submission of e-invoices from pre-configured tables.
+- Includes features to define triggers for real-time or scheduled submissions, minimizing manual intervention.
+
+### Settings:
+
+- Offers customizable options to configure system preferences, roles, and permissions.
+- Enables administrators to manage key operational parameters of the portal.
+
+
+### Audit Logs:
+
+- Maintains a record of user activities and system operations, enabling administrators to monitor and trace actions for security and compliance purposes.
+- Features search and filter options, such as by user email or date range, for precise tracking.
+
+
+## User Experience:
+
+### Responsive Design: 
+
+The portal is designed to adapt seamlessly across devices, providing a consistent experience on desktops, tablets, and smartphones.
+
+### User-Friendly Interface: 
+
+Simplifies navigation and reduces learning curves with clear layouts and accessible options.
+
+### Secure Operations: 
+Implements role-based access control to ensure sensitive operations are restricted to authorized users.
+
+### Benefits:
+- **Efficiency:** Automates repetitive tasks, saving time and reducing human errors.
+- **Compliance:** Ensures adherence to local and international standards for e-invoicing.
+- **Scalability:** Integrates with BigQuery and supports large-scale operations for businesses handling extensive invoice data.
