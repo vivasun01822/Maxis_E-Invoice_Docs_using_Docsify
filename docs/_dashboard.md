@@ -2,8 +2,6 @@
 
 The Maxis E-Invoice Portal Dashboard provides a comprehensive overview of invoicing activities. It includes various sections and visualizations to help you monitor and manage invoices effectively.
 
-## Overview
-
 The Dashboard is divided into several key sections:
 
 ### Summary Cards

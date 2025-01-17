@@ -10,8 +10,6 @@ The Submission Details list can be scrolled horizontally, enhancing the overall 
 ![Scrollable Submission Details Overview](../_media/submissionDetails4.png)
 
 
-## Overview
-
 The Submission Details is divided into several key sections:
 
 

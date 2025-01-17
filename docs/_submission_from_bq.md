@@ -5,9 +5,8 @@ The Submission From BQ section provides a comprehensive list of submissions made
 ![Submission From BQ](../_media/submissionFromBQ1.png)
 
 
-## Overview
-
 The Submission From BQ is divided into several sections:
+
 
 ### Filter by Table ID
 

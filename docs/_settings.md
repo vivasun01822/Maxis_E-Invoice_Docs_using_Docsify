@@ -5,8 +5,6 @@ The Settings section offers various configuration options to customize and manag
 ![Settings](../_media/settings1.png)
 
 
-## Overview:
-
 The Settings section is divided into several sections. They are:
 
 
@@ -48,3 +46,11 @@ To enable auto-submission triggers, add the table to the BQ Table Map by clickin
 
 
 ![BQ Table Map Create](../_media/settings7.png)
+
+
+### Audit Logs
+
+The Audit Logs feature allows you to monitor and review all application activity. You can easily track actions performed by users within the portal. This feature includes a search option to filter logs by a user's email—simply enter the email and click the `Search` button to view all operations associated with that user. Additionally, a Date Range filter lets you narrow down results to a specific time period. To reset the filters, use the `Reset` button, which clears the fields and retrieves fresh data from the database.
+
+
+![Audit Logs](../_media/settings10.png)

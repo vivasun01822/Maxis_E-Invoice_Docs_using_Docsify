@@ -5,10 +5,7 @@ The Validate TIN section offers a simple way to validate the TIN of any user. It
 ![Validate TIN Overview](../_media/validateTin1.png)
 
 
-## Overview
-
 The Validate TIN section is divided into two sections. They are: 
-
 
 
 ### Validate TIN Input

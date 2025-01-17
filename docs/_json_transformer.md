@@ -6,8 +6,6 @@ The Json Transformer section provides an easy way to transform JSON documents in
 ![Json Transformer Overview](../_media/jsonTransformer1.png)
 
 
-## Overview
-
 The Json Transformer is divided into two parts. They are:
 
 
