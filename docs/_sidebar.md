@@ -1,6 +1,7 @@
 - [Authentication](_authentication.md)
 - [Dashboard](_dashboard.md)
 - [Submission Details](_submission_details.md)
+- [Report](_report.md)
 - [Validate TIN](_validate_tin.md)
 - [Json Transformer](_json_transformer.md)
 - [Submission From BQ](_submission_from_bq.md)

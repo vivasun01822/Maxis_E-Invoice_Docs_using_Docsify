@@ -2,7 +2,7 @@
 
 The Submission From BQ section provides a comprehensive list of submissions made from BigQuery (BQ) to IRBM. This list includes detailed information about each submission.
 
-![Submission From BQ](../_media/submissionFromBQ1.png)
+![Submission From BQ](../_media/submissionFromBQ/submissionFromBQ1.png)
 
 
 The Submission From BQ is divided into several sections:
@@ -28,5 +28,5 @@ You can create a new Submission Trigger by entering the required values into the
 
 
 
-![Create New Submission Trigger](../_media/submissionFromBQ2.png)
+![Create New Submission Trigger](../_media/submissionFromBQ/submissionFromBQ2.png)
 
