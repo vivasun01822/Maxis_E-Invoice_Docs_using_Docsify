@@ -46,12 +46,12 @@ The Maxis E-Invoice Portal is a web-based application designed to simplify and s
 
 <script>
   const features = [
-    { title: 'Authentication', logo: '../_media/readme/authentication.svg', link: '#/_authentication' },
-    { title: 'Dashboard', logo: '../_media/readme/dashboard.svg', link: '#/_dashboard' },
-    { title: 'Submission Details', logo: '../_media/readme/submissionDetails.svg', link: '#/_submission_details' },
-    { title: 'Validate Tin', logo: '../_media/readme/validateTin.svg', link: '#/_validate_tin' },
-    { title: 'Submission From BQ', logo: '../_media/readme/submissionFromBQ.svg', link: '#/_submission_from_bq' },
-    { title: 'Settings', logo: '../_media/readme/settings.svg', link: '#/_settings' }
+    { title: 'Authentication', logo: '_media/readme/authentication.svg', link: '#/_authentication' },
+    { title: 'Dashboard', logo: '_media/readme/dashboard.svg', link: '#/_dashboard' },
+    { title: 'Submission Details', logo: '_media/readme/submissionDetails.svg', link: '#/_submission_details' },
+    { title: 'Validate Tin', logo: '_media/readme/validateTin.svg', link: '#/_validate_tin' },
+    { title: 'Submission From BQ', logo: '_media/readme/submissionFromBQ.svg', link: '#/_submission_from_bq' },
+    { title: 'Settings', logo: '._media/readme/settings.svg', link: '#/_settings' }
   ];
 
   const gridContainer = document.getElementById('features-grid');
