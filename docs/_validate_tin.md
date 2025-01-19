@@ -12,8 +12,8 @@ The Validate TIN section is divided into two sections. They are:
 
 The Validate TIN section allows you to verify the TIN of any user by filling out a form. Simply select the `id type` (e.g., BRN, NRIC, PASSPORT, ARMY, etc.), enter the corresponding `id value`, and input the `User TIN`. Click the `Check` button to see the validation result.
 
-
 ![Validate TIN Input](../_media/validateTin/validateTin2.png)
+
 
 
 ### Validate Multiple TIN

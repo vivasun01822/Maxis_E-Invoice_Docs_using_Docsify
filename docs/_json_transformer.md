@@ -2,7 +2,6 @@
 
 The Json Transformer section provides an easy way to transform JSON documents into `UBL 2.1` documents. After the transformation, you can submit the transformed documents to IRBM and then receive the submission response from IRBM server.
 
-
 ![Json Transformer Overview](../_media/jsonTransformer/jsonTransformer1.png)
 
 
@@ -16,6 +15,7 @@ In the Input JSON section, you can enter one or more JSON documents. The total n
 ![Input Json](../_media/jsonTransformer/jsonTransformer2.png)
 
 
+
 ### Submit Transformed Documents
 
 In order to submit transformed documents to IRBM, you must provide the `Data Source` of those documents. Then you can submit it to the IRBM. You can also download transformed documents by clicking the down arrow button. 
@@ -25,3 +25,4 @@ In order to submit transformed documents to IRBM, you must provide the `Data Sou
 By clicking the `Submit to IRB button`, you will see a success or error message on top of the input field.
 
 ![Submit Transformed Json](../_media/jsonTransformer/jsonTransformer4.png)
+
